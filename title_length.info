@@ -1,0 +1,3 @@
+name = Title length
+description = Increases maximum length of node titles.
+core = 7.x
