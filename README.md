@@ -7,7 +7,7 @@ By default, the module increases the field size to 8000 characters.
 Requirements
 ------------
 
-This module has no dependencies.
+This module has no requirements.
 
 Installation
 ------------
