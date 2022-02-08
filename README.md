@@ -19,13 +19,13 @@ Documentation
 -------------
 
 Additional documentation is located in the Wiki:
-https://github.com/backdrop-contrib/foo-project/wiki/Documentation.
+https://github.com/backdrop-contrib/title_length/wiki/Documentation.
 
 Issues
 ------
 
 Bugs and Feature requests should be reported in the Issue Queue:
-https://github.com/backdrop-contrib/foo-project/issues.
+https://github.com/backdrop-contrib/title_length/issues.
 
 Current Maintainers
 -------------------
