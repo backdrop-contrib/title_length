@@ -1,6 +1,11 @@
 <?php
 
 /**
+ * @file
+ * Increase the length of Node Titles.
+ */
+
+/**
  * Implements hook_form_FORM_ID_alter().
  */
 function title_length_form_node_form_alter(&$form, &$form_state, $form_id) {

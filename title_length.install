@@ -1,4 +1,10 @@
 <?php
+/**
+ * @file
+ * Install, update and uninstall functions for the title_length module.
+ *
+ */
+
 
 define('TITLE_LENGTH_CHARS', 8000);
 
@@ -21,7 +27,7 @@ function title_length_schema_alter(&$schema) {
  * Implements hook_install().
  */
 function title_length_install() {
-  $schema = drupal_get_schema();
+  $schema = backdrop_get_schema();
   if (empty($schema['node']['fields']['title'])) {
     // Is it possible?
     throw new Exception('Node module is not installed.');
@@ -43,7 +49,7 @@ function title_length_install() {
  * Implements hook_uninstall().
  */
 function title_length_uninstall() {
-  $schema = drupal_get_schema();
+  $schema = backdrop_get_schema();
   if (empty($schema['node']['fields']['title'])) {
     // Is it possible?
     return;
